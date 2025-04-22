@@ -1,0 +1,47 @@
+body {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    height: 70vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 
+    sans-serif;
+}
+
+.kalkulator {
+    background-color: rgb(197, 222, 245);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(106, 157, 202);
+}
+
+input, button {
+    width: 50px;
+    height: 40px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: rgba(116, 157, 196, 0.726);
+    font-size: 20px;
+
+}
+
+input {
+    width: 220px;
+    height: 40px;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.button .hapus {
+    background-color: rgb(33, 119, 194);
+    border-color: rgb(28, 94, 151);
+    grid-column: span 2;
+    width: 110px;
+    color: #ffffff;
+    font-weight: bold;
+}
